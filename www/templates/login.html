@@ -1,0 +1,14 @@
+<ion-view title="Login" hide-nav-bar="true" id="page4" class=" ">
+    <ion-content padding="true" class="manual-ios-statusbar-padding">
+        <form id="login-form4" class="list ">
+            <div class="spacer" style="height: 100px;"></div>
+            <label class="item item-input " id="login-input3">
+                <input type="email" placeholder="Login" ng-model="user.mail" >
+            </label>
+            <label class="item item-input " id="login-input2">
+                <input type="password" placeholder="Password" ng-model="user.password">
+            </label>
+          <input type="submit" id="signin-button1" class=" button button-positive  button-block " ng-click="sendform(user)">Sign in</input>
+        </form>
+    </ion-content>
+</ion-view>
